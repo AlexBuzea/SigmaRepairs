@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+    <!-- Personal CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <title>Sigma Repairs - Home</title>
+
+</head>
+
+<body>
+
+    <header class="container-fluid fixed-top px-0">
+        <div class="nav-banner d-none d-lg-block"></div>
+        <div class="nav-banner-2 d-none d-lg-flex justify-content-around align-items-center ">
+            <a class="navbar-brand" href="index.html"><img class="img-fluid " width="120" height="120"
+                    src="images/logo4.svg" alt=""></a>
+            <div>
+                <p>Telephone: 0161 123 4567</p>
+                <p>Email: contact@sigmait.co.uk</p>
+            </div>
+
+        </div>
+
+        <div class="nav-banner-3 d-none d-lg-block"></div>
+        <nav class="col navbar navbar-expand-lg navbar-light ">
+            <div class="container ">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand d-lg-none" href="index.html"><img class="img-fluid " width="120" height="120"
+                        src="images/logo4.svg" alt=""></a>
+
+                <div class="collapse navbar-collapse justify-content-center " id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item ">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active dropdown">
+                            <a class="nav-link dropdown-toggle nav-txt" href="#" id="navbarDropdownMenuLink"
+                                role="button" data-toggle="dropdown" aria-expanded="false">
+                                Repair Services
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="repairs.html">Desktop PC & Laptop Repairs and Support</a>
+                                <a class="dropdown-item" href="datarecovery.html">Data Rescue and Recovery</a>
+                                <a class="dropdown-item" href="bookings.html">Offsite & Onsite Repairs and Services</a>
+                                <a class="dropdown-item" href="internetproblems.html">Internet Problems</a>
+                                <a class="dropdown-item" href="setups.html">Set-ups</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-toggle="dropdown" aria-expanded="false">
+                                Bookings
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="bookings.html">Book a Repair or Collection</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="prices.html">Prices</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="icons" class="d-none d-lg-inline">
+
+                    <a href="https://www.facebook.com">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1.6rem" height="1.6rem" viewBox="0 0 448 512">
+                            <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                            <path
+                                d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z" />
+                        </svg>
+                    </a>
+
+                    <a href="https://twitter.com/">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1.6rem" height="1.6rem" viewBox="0 0 448 512">
+                            <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                            <path
+                                d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-48.9 158.8c.2 2.8.2 5.7.2 8.5 0 86.7-66 186.6-186.6 186.6-37.2 0-71.7-10.8-100.7-29.4 5.3.6 10.4.8 15.8.8 30.7 0 58.9-10.4 81.4-28-28.8-.6-53-19.5-61.3-45.5 10.1 1.5 19.2 1.5 29.6-1.2-30-6.1-52.5-32.5-52.5-64.4v-.8c8.7 4.9 18.9 7.9 29.6 8.3a65.447 65.447 0 0 1-29.2-54.6c0-12.2 3.2-23.4 8.9-33.1 32.3 39.8 80.8 65.8 135.2 68.6-9.3-44.5 24-80.6 64-80.6 18.9 0 35.9 7.9 47.9 20.7 14.8-2.8 29-8.3 41.6-15.8-4.9 15.2-15.2 28-28.8 36.1 13.2-1.4 26-5.1 37.8-10.2-8.9 13.1-20.1 24.7-32.9 34z" />
+                        </svg>
+                    </a>
+
+                </div>
+
+
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <div class="container py-2 ">
+            <div class="row">
+                <div class="col image-box-4 px-0 ">
+                    <div class="d-flex flex-column justify-content-end pb-3 h-100 w-100 " >
+                       
+                        <div class="p-4 text-box-4 text-center" > <h3>We offer repairs for PCs and Macs</h3></div>
+                    
+    
+                    </div>
+                </div>
+                
+            </div>   
+
+            <div class="row py-2">
+                <div class="col">
+                    <h4>Qualified and Professional Technicians</h4>
+                    <p> Here at Sigma Repairs we offer a range of laptop and computer repairs in Cardiff and nearby
+                        surroundings. We
+                        fix most makes and models of desktop computers and laptops from simple to complex repairs
+                        whether
+                        it’s a
+                        software or hardware problem. Our experienced technicians will be able to diagnose whatever the
+                        problem
+                        is
+                        and bring your device back to life.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row py-3">
+                <div class="col-md-5 pt-2">
+                    <!-- <div class="row">
+                    <div class="col"></div>
+                    <div class="col-10 "> -->
+                    <img src="images/video-card-desktop.jpg" alt="" class="img-fluid">
+                    <!-- </div>
+                    <div class="col"></div>
+                </div> -->
+                </div>
+
+                <div class="col-md-7 pt-3">
+                    <h4> Offsite and Onsite Repairs</h4>
+
+                    <p>
+                        If you need your laptop or computer fixed quickly you drop your device at our premises and
+                        we
+                        will
+                        endeavour
+                        to fix your device the same day. Alternatively, we can also collect it from your home within
+                        20
+                        miles
+                        from
+                        Cardiff. If you prefer us to connect to your device remotely to diagnose the problem and fix
+                        it
+                        we
+                        can
+                        also
+                        cater for this option, which often can get your device fixed quicker if it’s not a hardware
+                        problem.
+                    </p>
+
+                    <button class="btn px-4 "><a class="text-decoration-none text-reset" href="bookings.html">Book
+                            Now</a></button>
+
+                </div>
+            </div>
+
+            <div class="row py-3">
+                <div class="col text-center">
+                    <p class="font-weight-bold">
+                        Our services include, but not limited to the following:
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <table class="table table-striped border">
+                        <thead>
+                            <tr>
+                                <th class="text-white bg-dark text-center py-2">
+
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                                        class="bi bi-shield-check mr-2" viewBox="0 0 16 16">
+                                        <path
+                                            d="M5.338 1.59a61.44 61.44 0 0 0-2.837.856.481.481 0 0 0-.328.39c-.554 4.157.726 7.19 2.253 9.188a10.725 10.725 0 0 0 2.287 2.233c.346.244.652.42.893.533.12.057.218.095.293.118a.55.55 0 0 0 .101.025.615.615 0 0 0 .1-.025c.076-.023.174-.061.294-.118.24-.113.547-.29.893-.533a10.726 10.726 0 0 0 2.287-2.233c1.527-1.997 2.807-5.031 2.253-9.188a.48.48 0 0 0-.328-.39c-.651-.213-1.75-.56-2.837-.855C9.552 1.29 8.531 1.067 8 1.067c-.53 0-1.552.223-2.662.524zM5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.775 11.775 0 0 1-2.517 2.453 7.159 7.159 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7.158 7.158 0 0 1-1.048-.625 11.777 11.777 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 62.456 62.456 0 0 1 5.072.56z" />
+                                        <path
+                                            d="M10.854 5.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 7.793l2.646-2.647a.5.5 0 0 1 .708 0z" />
+                                    </svg>
+
+                                    Security
+                                </th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>Virus and Malware Removal</td>
+                            </tr>
+
+                            <tr>
+                                <td>Online Security Advice (securing your devices within your house, VPNs etc.)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+
+                <div class="col-md-4">
+                    <table class="table table-striped border">
+                        <thead>
+                            <tr>
+                                <th class="text-white bg-dark text-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                                        class="bi bi-laptop mr-2" viewBox="0 0 16 16">
+                                        <path
+                                            d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5h11zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2h-11zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5z" />
+                                    </svg>
+
+                                    Hardware
+                                </th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>Hard Drive Replacement & Upgrade</td>
+                            </tr>
+                            <tr>
+                                <td>RAM Memory Upgrade</td>
+                            </tr>
+                            <tr>
+                                <td>Keyboard Replacement</td>
+                            </tr>
+                            <tr>
+                                <td>Power Jack Replacement</td>
+                            </tr>
+                            <tr>
+                                <td>Fan Replacement (Noisy Computer)</td>
+                            </tr>
+                            <tr>
+                                <td>Water Damage Issues</td>
+                            </tr>
+                            <tr>
+                                <td>Overheating Issues</td>
+                            </tr>
+                            <tr>
+                                <td>Battery Replacement</td>
+                            </tr>
+                            <tr>
+                                <td>Computer Not Turning On</td>
+                            </tr>
+                            <tr>
+                                <td>Printer, Keyboard, Mouse, Monitor Doesn’t Work</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="col-md-4">
+                    <table class="table table-striped border">
+                        <thead>
+                            <tr>
+                                <th class="text-white bg-dark text-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                                        class="bi bi-windows mr-2" viewBox="0 0 16 16">
+                                        <path
+                                            d="M6.555 1.375 0 2.237v5.45h6.555V1.375zM0 13.795l6.555.933V8.313H0v5.482zm7.278-5.4.026 6.378L16 16V8.395H7.278zM16 0 7.33 1.244v6.414H16V0z" />
+                                    </svg>
+
+                                    Software
+                                </th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>Slow Computer*</td>
+                            </tr>
+                            <tr>
+                                <td>Computer Freezes</td>
+                            </tr>
+                            <tr>
+                                <td>Microsoft Office Problems or Set-up</td>
+                            </tr>
+                            <tr>
+                                <td>Data Loss</td>
+                            </tr>
+                            <tr>
+                                <td>Blue Screen with Errors or Other Error Messages</td>
+                            </tr>
+                            <tr>
+                                <td>Pop-up Messages Coming Up on Screen</td>
+                            </tr>
+                            <tr>
+                                <td>Problems Connecting to Internet, Wi-Fi Keeps Disconnecting, Slow Internet</td>
+                            </tr>
+                            <tr>
+                                <td>Emails Problems</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+
+
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <p><small>*some of the problems above can be caused by hardware issues as well, depending on the
+                            configuration
+                            of the computer it could be a mixture of software and hardware issues (e.g. insufficient
+                            memory or
+                            slow hard drive)</small></p>
+                    <p><small>**if your problem doesn’t come up in the list below please get in touch anyway as we’re
+                            likely to be
+                            able to help, the problems listed above are the most common ones</small></p>
+                </div>
+            </div>
+
+
+
+
+
+        </div>
+
+
+    </main>
+    <hr>
+
+    <footer class="footer container  ">
+
+        <div class="container">
+            <footer class="py-5">
+                <div class="row">
+                    <div class="col-6 col-md-2 mb-3">
+                        <h5>Services</h5>
+                        <ul class="nav flex-column footer-links">
+                            <li class="nav-item mb-2"><a href="repairs.html" class="nav-link p-0 ">PC Repairs</a></li>
+                            <li class="nav-item mb-2"><a href="datarecovery.html" class="nav-link p-0 ">Data Recovery</a></li>
+                            <li class="nav-item mb-2"><a href="bookings.html" class="nav-link p-0 ">Offsite & Onsite Repairs</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="internetproblems.html" class="nav-link p-0 ">Internet Problems</a></li>
+                            <li class="nav-item mb-2"><a href="setups.html" class="nav-link p-0 ">Set-Ups</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-6 col-md-2 mb-3 footer-links">
+                        <h5>Bookings</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="bookings.html" class="nav-link p-0">Book a Repair</a></li>
+                            <li class="nav-item mb-2"><a href="bookings.html" class="nav-link p-0">Book Collection</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-6 col-md-2 mb-3 footer-links">
+                        <h5>More</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="contact.html" class="nav-link p-0">Contact Us</a></li>
+                            <li class="nav-item mb-2"><a href="terms.html" class="nav-link p-0">Terms & Conditions</a></li>
+                            <li class="nav-item mb-2"><a href="privacy.html" class="nav-link p-0">Privacy Policy</a></li>
+                            <li class="nav-item mb-2"><a href="blog.html" class="nav-link p-0">Blog</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-5 offset-md-1 mb-3 footer-links">
+                        <form>
+                            <h5>Subscribe to our newsletter</h5>
+                            <p>Monthly digest of what's new and exciting from us.</p>
+                            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+
+                                <input id="newsletter1" type="text" class="form-control mr-2 mt-1 "
+                                    placeholder="Email address">
+                                <button class="btn btn-primary mt-1" type="button">Subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div id="icons" class="row d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                    <p>&copy; 2022 Sigma IT, Inc. All rights reserved.</p>
+                    <ul class="list-unstyled d-flex">
+                        <li class="ms-3 mr-1"><a class="link-dark" href="https://www.facebook.com/">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="1.6rem" height="1.6rem"
+                                    viewBox="0 0 448 512">
+                                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                                    <path
+                                        d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z" />
+                                </svg>
+
+                                <!-- <svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg> -->
+                            </a></li>
+                        <li class="ms-3"><a class="link-dark" href="https://twitter.com/">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="1.6rem" height="1.6rem"
+                                    viewBox="0 0 448 512">
+                                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                                    <path
+                                        d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-48.9 158.8c.2 2.8.2 5.7.2 8.5 0 86.7-66 186.6-186.6 186.6-37.2 0-71.7-10.8-100.7-29.4 5.3.6 10.4.8 15.8.8 30.7 0 58.9-10.4 81.4-28-28.8-.6-53-19.5-61.3-45.5 10.1 1.5 19.2 1.5 29.6-1.2-30-6.1-52.5-32.5-52.5-64.4v-.8c8.7 4.9 18.9 7.9 29.6 8.3a65.447 65.447 0 0 1-29.2-54.6c0-12.2 3.2-23.4 8.9-33.1 32.3 39.8 80.8 65.8 135.2 68.6-9.3-44.5 24-80.6 64-80.6 18.9 0 35.9 7.9 47.9 20.7 14.8-2.8 29-8.3 41.6-15.8-4.9 15.2-15.2 28-28.8 36.1 13.2-1.4 26-5.1 37.8-10.2-8.9 13.1-20.1 24.7-32.9 34z" />
+                                </svg>
+                            </a>
+
+                    </ul>
+                </div>
+
+            </footer>
+        </div>
+
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+        integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+        crossorigin="anonymous"></script>
+
+
+    <body>
+
+    </body>
+
+</html>

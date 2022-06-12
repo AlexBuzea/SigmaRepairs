@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+    <!-- Personal CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <title>Sigma Repairs - Home</title>
+
+</head>
+
+<body class="container">
+
+    <header class="container-fluid fixed-top px-0">
+        <div class="nav-banner d-none d-lg-block"></div>
+        <div class="nav-banner-2 d-none d-lg-flex justify-content-around align-items-center ">
+            <a class="navbar-brand" href="index.html"><img class="img-fluid " width="120" height="120"
+                    src="images/logo4.svg" alt=""></a>
+            <div>
+                <p>Telephone: 0161 123 4567</p>
+                <p>Email: contact@sigmait.co.uk</p>
+            </div>
+
+        </div>
+
+        <div class="nav-banner-3 d-none d-lg-block"></div>
+        <nav class="col navbar navbar-expand-lg navbar-light ">
+            <div class="container ">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand d-lg-none" href="index.html"><img class="img-fluid " width="120" height="120"
+                        src="images/logo4.svg" alt=""></a>
+
+                <div class="collapse navbar-collapse justify-content-center " id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle nav-txt" href="#" id="navbarDropdownMenuLink"
+                                role="button" data-toggle="dropdown" aria-expanded="false">
+                                Repair Services
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="repairs.html">Desktop PC & Laptop Repairs and Support</a>
+                                <a class="dropdown-item" href="datarecovery.html">Data Rescue and Recovery</a>
+                                <a class="dropdown-item" href="bookings.html">Offsite & Onsite Repairs and Services</a>
+                                <a class="dropdown-item" href="internetproblems.html">Internet Problems</a>
+                                <a class="dropdown-item" href="setups.html">Set-ups</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-toggle="dropdown" aria-expanded="false">
+                                Bookings
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="bookings.html">Book a Repair or Collection</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="prices.html">Prices</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="icons" class="d-none d-lg-inline">
+
+                    <a href="https://www.facebook.com">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1.6rem" height="1.6rem" viewBox="0 0 448 512">
+                            <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                            <path
+                                d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z" />
+                        </svg>
+                    </a>
+
+                    <a href="https://twitter.com/">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1.6rem" height="1.6rem" viewBox="0 0 448 512">
+                            <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                            <path
+                                d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-48.9 158.8c.2 2.8.2 5.7.2 8.5 0 86.7-66 186.6-186.6 186.6-37.2 0-71.7-10.8-100.7-29.4 5.3.6 10.4.8 15.8.8 30.7 0 58.9-10.4 81.4-28-28.8-.6-53-19.5-61.3-45.5 10.1 1.5 19.2 1.5 29.6-1.2-30-6.1-52.5-32.5-52.5-64.4v-.8c8.7 4.9 18.9 7.9 29.6 8.3a65.447 65.447 0 0 1-29.2-54.6c0-12.2 3.2-23.4 8.9-33.1 32.3 39.8 80.8 65.8 135.2 68.6-9.3-44.5 24-80.6 64-80.6 18.9 0 35.9 7.9 47.9 20.7 14.8-2.8 29-8.3 41.6-15.8-4.9 15.2-15.2 28-28.8 36.1 13.2-1.4 26-5.1 37.8-10.2-8.9 13.1-20.1 24.7-32.9 34z" />
+                        </svg>
+                    </a>
+
+                </div>
+
+
+            </div>
+        </nav>
+    </header>
+
+
+    <main class="container py-4 px-0">
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-sm-12 col-md-10 px-4 py-3">
+                <h1>Computer Repair Prices</h1>
+                <p>Below you can find the estimate prices for our services. If the service is not listed below there is an hourly charge which can be found in the list below</p>
+            </div>
+            <div class="col"></div>
+        </div>
+        <div class="row justify-content-center ">
+            <div class="col-sm-12 col-md-10 px-4">
+                <table class="table table-striped border">
+                    <thead>
+                        <tr>
+                            <th>Job</th>
+                            <th>Details</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Virus Removal</td>
+                            <td>Scan, remove and repair. Depending on severity charge will be based on how long it takes
+                                to remove
+                                the
+                                infection.</td>
+                            <td>from £40</td>
+                        </tr>
+
+                        <tr>
+                            <td>Hard Drive Replacement</td>
+                            <td>Replace your old HDD with a new one or upgrade it to an Solid State Drive (SSD).
+                                Starting price
+                                includes
+                                a 500GB SSD, if it requires Windows installation or data transfer from £130</td>
+                            <td>from £80</td>
+                        </tr>
+
+                        <tr>
+                            <td>RAM Memory Upgrade</td>
+                            <td>Upgrade your RAM memory on your laptop or Desktop PC, starting price is for 4GB upgrade
+                            </td>
+                            <td>from £50</td>
+                        </tr>
+
+                        <tr>
+                            <td>Keyboard Replacement</td>
+                            <td>Remove your old keyboard and replace it with a new one</td>
+                            <td>from £40</td>
+                        </tr>
+
+                        <tr>
+                            <td>Screen Replacement</td>
+                            <td>Remove old screen and replace it with a new one</td>
+                            <td>from £70</td>
+                        </tr>
+
+                        <tr>
+                            <td>Power Jack Replacement</td>
+                            <td>Desolder old power jack and replace it with a new one</td>
+                            <td>from £70</td>
+                        </tr>
+
+                        <tr>
+                            <td>Fan Replacement & Cooling System Cleaning</td>
+                            <td>Replace old noisy fan with a new one, clean your cooling system and replace thermal
+                                paste if
+                                necessary
+                            </td>
+                            <td>from £50</td>
+                        </tr>
+
+                        <tr>
+                            <td>Battery Replacement</td>
+                            <td>Replace your old battery with a new one</td>
+                            <td>from £50</td>
+                        </tr>
+
+                        <tr>
+                            <td>Data Recovery</td>
+                            <td>Recovery data from a computer that won't start or deleted data</td>
+                            <td>£60-120</td>
+                        </tr>
+
+                        <tr>
+                            <td>Internet Problems</td>
+                            <td>Fix Wi-Fi issues including problems with connection, internet dropping or slow
+                                connection. Setting
+                                up
+                                extenders, mesh system or access points throughout the property.</td>
+                            <td>from £30</td>
+                        </tr>
+
+                        <tr>
+                            <td>Printer, mouse, monitor, keyboard problems</td>
+                            <td>Setting up new printers or fixing issues with existing printer or other peripheral
+                                devices</td>
+                            <td>from £30</td>
+                        </tr>
+
+                        <tr>
+                            <td>Other Services</td>
+                            <td>For other services not on the list it will be the hourly charge</td>
+                            <td>£25/hour or £30/hour for call-outs</td>
+                        </tr>
+
+                        <tr>
+                            <td>Collection Fee</td>
+                            <td>Charge for picking up your device from your home and return when it's ready</td>
+                            <td>£10</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </main>
+    <hr>
+
+
+    <footer class="footer container  ">
+
+        <div class="container">
+            <footer class="py-5">
+                <div class="row">
+                    <div class="col-6 col-md-2 mb-3">
+                        <h5>Services</h5>
+                        <ul class="nav flex-column footer-links">
+                            <li class="nav-item mb-2"><a href="repairs.html" class="nav-link p-0 ">PC Repairs</a></li>
+                            <li class="nav-item mb-2"><a href="datarecovery.html" class="nav-link p-0 ">Data Recovery</a></li>
+                            <li class="nav-item mb-2"><a href="bookings.html" class="nav-link p-0 ">Offsite & Onsite Repairs</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="internetproblems.html" class="nav-link p-0 ">Internet Problems</a></li>
+                            <li class="nav-item mb-2"><a href="setups.html" class="nav-link p-0 ">Set-Ups</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-6 col-md-2 mb-3 footer-links">
+                        <h5>Bookings</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="bookings.html" class="nav-link p-0">Book a Repair</a></li>
+                            <li class="nav-item mb-2"><a href="bookings.html" class="nav-link p-0">Book Collection</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-6 col-md-2 mb-3 footer-links">
+                        <h5>More</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="contact.html" class="nav-link p-0">Contact Us</a></li>
+                            <li class="nav-item mb-2"><a href="terms.html" class="nav-link p-0">Terms & Conditions</a></li>
+                            <li class="nav-item mb-2"><a href="privacy.html" class="nav-link p-0">Privacy Policy</a></li>
+                            <li class="nav-item mb-2"><a href="blog.html" class="nav-link p-0">Blog</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-5 offset-md-1 mb-3 footer-links">
+                        <form>
+                            <h5>Subscribe to our newsletter</h5>
+                            <p>Monthly digest of what's new and exciting from us.</p>
+                            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+
+                                <input id="newsletter1" type="text" class="form-control mr-2 mt-1 "
+                                    placeholder="Email address">
+                                <button class="btn btn-primary mt-1" type="button">Subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div id="icons" class="row d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                    <p>&copy; 2022 Sigma IT, Inc. All rights reserved.</p>
+                    <ul class="list-unstyled d-flex">
+                        <li class="ms-3 mr-1"><a class="link-dark" href="https://www.facebook.com/">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="1.6rem" height="1.6rem"
+                                    viewBox="0 0 448 512">
+                                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                                    <path
+                                        d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z" />
+                                </svg>
+
+                                <!-- <svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg> -->
+                            </a></li>
+                        <li class="ms-3"><a class="link-dark" href="https://twitter.com/">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="1.6rem" height="1.6rem"
+                                    viewBox="0 0 448 512">
+                                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                                    <path
+                                        d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-48.9 158.8c.2 2.8.2 5.7.2 8.5 0 86.7-66 186.6-186.6 186.6-37.2 0-71.7-10.8-100.7-29.4 5.3.6 10.4.8 15.8.8 30.7 0 58.9-10.4 81.4-28-28.8-.6-53-19.5-61.3-45.5 10.1 1.5 19.2 1.5 29.6-1.2-30-6.1-52.5-32.5-52.5-64.4v-.8c8.7 4.9 18.9 7.9 29.6 8.3a65.447 65.447 0 0 1-29.2-54.6c0-12.2 3.2-23.4 8.9-33.1 32.3 39.8 80.8 65.8 135.2 68.6-9.3-44.5 24-80.6 64-80.6 18.9 0 35.9 7.9 47.9 20.7 14.8-2.8 29-8.3 41.6-15.8-4.9 15.2-15.2 28-28.8 36.1 13.2-1.4 26-5.1 37.8-10.2-8.9 13.1-20.1 24.7-32.9 34z" />
+                                </svg>
+                            </a>
+
+                    </ul>
+                </div>
+
+            </footer>
+        </div>
+
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+        integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+        crossorigin="anonymous"></script>
+
+
+    <body>
+
+    </body>
+
+</html>

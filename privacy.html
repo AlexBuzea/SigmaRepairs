@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+    <!-- Personal CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <title>Sigma Repairs - Home</title>
+
+</head>
+
+<body>
+
+    <header class="container-fluid fixed-top px-0">
+        <div class="nav-banner d-none d-lg-block"></div>
+        <div class="nav-banner-2 d-none d-lg-flex justify-content-around align-items-center ">
+            <a class="navbar-brand" href="index.html"><img class="img-fluid " width="120" height="120"
+                    src="images/logo4.svg" alt=""></a>
+            <div>
+                <p>Telephone: 0161 123 4567</p>
+                <p>Email: contact@sigmait.co.uk</p>
+            </div>
+
+        </div>
+
+        <div class="nav-banner-3 d-none d-lg-block"></div>
+        <nav class="col navbar navbar-expand-lg navbar-light ">
+            <div class="container ">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand d-lg-none" href="index.html"><img class="img-fluid " width="120" height="120"
+                        src="images/logo4.svg" alt=""></a>
+
+                <div class="collapse navbar-collapse justify-content-center " id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle nav-txt" href="#" id="navbarDropdownMenuLink"
+                                role="button" data-toggle="dropdown" aria-expanded="false">
+                                Repair Services
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="repairs.html">Desktop PC & Laptop Repairs and Support</a>
+                                <a class="dropdown-item" href="datarecovery.html">Data Rescue and Recovery</a>
+                                <a class="dropdown-item" href="bookings.html">Offsite & Onsite Repairs and Services</a>
+                                <a class="dropdown-item" href="internetproblems.html">Internet Problems</a>
+                                <a class="dropdown-item" href="setups.html">Set-ups</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-toggle="dropdown" aria-expanded="false">
+                                Bookings
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="bookings.html">Book a Repair or Collection</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="prices.html">Prices</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="icons" class="d-none d-lg-inline">
+
+                    <a href="https://www.facebook.com">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1.6rem" height="1.6rem" viewBox="0 0 448 512">
+                            <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                            <path
+                                d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z" />
+                        </svg>
+                    </a>
+
+                    <a href="https://twitter.com/">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1.6rem" height="1.6rem" viewBox="0 0 448 512">
+                            <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                            <path
+                                d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-48.9 158.8c.2 2.8.2 5.7.2 8.5 0 86.7-66 186.6-186.6 186.6-37.2 0-71.7-10.8-100.7-29.4 5.3.6 10.4.8 15.8.8 30.7 0 58.9-10.4 81.4-28-28.8-.6-53-19.5-61.3-45.5 10.1 1.5 19.2 1.5 29.6-1.2-30-6.1-52.5-32.5-52.5-64.4v-.8c8.7 4.9 18.9 7.9 29.6 8.3a65.447 65.447 0 0 1-29.2-54.6c0-12.2 3.2-23.4 8.9-33.1 32.3 39.8 80.8 65.8 135.2 68.6-9.3-44.5 24-80.6 64-80.6 18.9 0 35.9 7.9 47.9 20.7 14.8-2.8 29-8.3 41.6-15.8-4.9 15.2-15.2 28-28.8 36.1 13.2-1.4 26-5.1 37.8-10.2-8.9 13.1-20.1 24.7-32.9 34z" />
+                        </svg>
+                    </a>
+
+                </div>
+
+
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <div class="container py-2 ">
+            <div class="row">
+                <img src="images/privacy-img.jpg" alt="An image of computers" class="col img-fluid px-0 pb-3 ">
+
+            </div>
+
+
+            <div class="row pt-3 ">
+                <div class="col">
+
+                    <h1 class="pb-4">Privacy Policy</h1>
+
+                    <p>For each visitor to our web page, our web server automatically recognizes no information
+                        regarding
+                        the domain or email address.</p>
+
+                    <p>We collect the email addresses of those who communicate with us via email, the email addresses of
+                        those who make postings to our chat areas, aggregate information on what pages consumers access
+                        or
+                        visit, information volunteered by the consumer, such as survey information and/or site
+                        registrations
+                    </p>
+
+                    <p>The information we collect is used to improve the content of our web page, used by us to contact
+                        consumers for marketing purposes.</p>
+
+                    <p>For information on the Cookies we set, <span class="font-weight-bold "><u>please see Cookie
+                                Policy in
+                                the bottom section of this page.</u></span></p>
+
+                    <p>If you do not want to receive emails from us in the future, please let us know by writing to us
+                        at
+                        our main email address.</p>
+
+                    <p>If you supply us with your postal address online you will only receive the information for which
+                        you
+                        provided us your address.</p>
+
+                    <p>Persons who supply us with their telephone numbers online will only receive telephone contact
+                        from us
+                        with information regarding orders they have placed online.</p>
+
+                    <p>Persons who supply us with their telephone numbers online may receive telephone contact from us
+                        with
+                        information regarding new products and services or upcoming events. If you do not wish to
+                        receive
+                        such telephone calls, please let us know by writing to us at the above address.</p>
+
+                    <p>Please provide us with your name and phone number. We will be sure your name is removed from the
+                        list
+                        we share with other organisations.</p>
+
+                    <p class="font-weight-bold">With respect to Ad Servers:</p>
+
+                    <p>We do not partner with or have special relationships with any ad server companies.</p>
+
+                    <p>From time to time, we may use customer information for new, unanticipated uses not previously
+                        disclosed in our privacy notice. If our information practices change at some time in the future
+                        we
+                        will post the policy changes to our website to notify you of these changes and we will use for
+                        these
+                        new purposes only data collected from the time of the policy change forward. If you are
+                        concerned
+                        about how your information is used, you should check back at our website periodically.</p>
+
+                    <p>Upon request we provide site visitors with access to all information [including proprietary
+                        information] that we maintain about them.</p>
+
+                    <p>Consumers can access this information by writing to us at the above address. Consumers can have
+                        this
+                        information corrected by contacting us</p>
+
+                    <p>If you feel that this site is not following its stated information policy, you may contact us.
+                    </p>
+
+
+                    <p class="font-weight-bold">Cookies Policy</p>
+
+                    <p>Cookies are files which are sent to your computer or other access device from a web site which
+                        can be
+                        accessed at a later time by the same web site. They do not contain any personal information
+                        about
+                        you and cannot be used to identify an individual user.</p>
+
+                    <p>We use cookies to provide us with anonymous information on how people use our website and to help
+                        us to know what they find interesting and useful on our website.</p>
+
+                    <p>Most web browsers accept cookies by default. However, if you are uncomfortable with cookies, you
+                        may be able to set your web browser to refuse all cookies or to let you know when a cookie is
+                        sent to your computer – you can then choose whether to accept the cookie, or not.</p>
+
+                    <p>Please note that by refusing our cookies or disabling future cookies you may not be able to use
+                        certain areas or features of our site.</p>
+
+                    <p>For example if you use the jobs site you will need to enable cookies in order to get the full
+                        benefits of this online service. Also, if you wish to make payments cookies will need to be
+                        enabled.</p>
+
+                        <p class="font-weight-bold">How to control and delete cookies</p>
+
+                        <p>Sigma Repairs will not use cookies to collect personally identifiable information about you. However, if you wish to restrict or block the cookies which are set by Sigma Repairs website, or indeed any other website, you can do this through your browser settings. The Help function within your browser should tell you how.</p>
+
+                        <p>Alternatively, you may wish to visit <a href="https://www.aboutcookies.org/"> www.aboutcookies.org </a> which contains comprehensive information on how to do this on a wide variety of browsers. You will also find details on how to delete cookies from your computer as well as more general information about cookies. For information on how to do this on the browser of your mobile phone you will need to refer to your handset manual.
+                            Please be aware that restricting cookies may impact the functionality of the Sigma Repairs website.
+                            </p>
+
+                            <p class="font-weight-bold">Cookies set by Third Party sites</p>
+
+                            <p>To support our website, we sometimes embed photos and video content from websites such as YouTube, Instagram, Twitter and Flickr. As a result, when you visit a page with content embedded from, for example, YouTube or Flickr, you may be presented with cookies from these websites. Sigma Repairs does not control the dissemination of these cookies. You should check the relevant third party website for more information about these.</p>
+
+
+
+
+
+                </div>
+            </div>
+
+
+
+
+
+
+        </div>
+    </main>
+
+    <hr>
+
+    <footer class="footer container  ">
+
+        <div class="container">
+            <footer class="py-5">
+                <div class="row">
+                    <div class="col-6 col-md-2 mb-3">
+                        <h5>Services</h5>
+                        <ul class="nav flex-column footer-links">
+                            <li class="nav-item mb-2"><a href="repairs.html" class="nav-link p-0 ">PC Repairs</a></li>
+                            <li class="nav-item mb-2"><a href="datarecovery.html" class="nav-link p-0 ">Data
+                                    Recovery</a></li>
+                            <li class="nav-item mb-2"><a href="bookings.html" class="nav-link p-0 ">Offsite & Onsite
+                                    Repairs</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="internetproblems.html" class="nav-link p-0 ">Internet
+                                    Problems</a></li>
+                            <li class="nav-item mb-2"><a href="setups.html" class="nav-link p-0 ">Set-Ups</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-6 col-md-2 mb-3 footer-links">
+                        <h5>Bookings</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="bookings.html" class="nav-link p-0">Book a Repair</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="bookings.html" class="nav-link p-0">Book Collection</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-6 col-md-2 mb-3 footer-links">
+                        <h5>More</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="contact.html" class="nav-link p-0">Contact Us</a></li>
+                            <li class="nav-item mb-2"><a href="terms.html" class="nav-link p-0">Terms & Conditions</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="privacy.html" class="nav-link p-0">Privacy Policy</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="blog.html" class="nav-link p-0">Blog</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-5 offset-md-1 mb-3 footer-links">
+                        <form>
+                            <h5>Subscribe to our newsletter</h5>
+                            <p>Monthly digest of what's new and exciting from us.</p>
+                            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+
+                                <input id="newsletter1" type="text" class="form-control mr-2 mt-1 "
+                                    placeholder="Email address">
+                                <button class="btn btn-primary mt-1" type="button">Subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div id="icons" class="row d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                    <p>&copy; 2022 Sigma IT, Inc. All rights reserved.</p>
+                    <ul class="list-unstyled d-flex">
+                        <li class="ms-3 mr-1"><a class="link-dark" href="https://www.facebook.com/">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="1.6rem" height="1.6rem"
+                                    viewBox="0 0 448 512">
+                                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                                    <path
+                                        d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z" />
+                                </svg>
+
+                                <!-- <svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg> -->
+                            </a></li>
+                        <li class="ms-3"><a class="link-dark" href="https://twitter.com/">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="1.6rem" height="1.6rem"
+                                    viewBox="0 0 448 512">
+                                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                                    <path
+                                        d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-48.9 158.8c.2 2.8.2 5.7.2 8.5 0 86.7-66 186.6-186.6 186.6-37.2 0-71.7-10.8-100.7-29.4 5.3.6 10.4.8 15.8.8 30.7 0 58.9-10.4 81.4-28-28.8-.6-53-19.5-61.3-45.5 10.1 1.5 19.2 1.5 29.6-1.2-30-6.1-52.5-32.5-52.5-64.4v-.8c8.7 4.9 18.9 7.9 29.6 8.3a65.447 65.447 0 0 1-29.2-54.6c0-12.2 3.2-23.4 8.9-33.1 32.3 39.8 80.8 65.8 135.2 68.6-9.3-44.5 24-80.6 64-80.6 18.9 0 35.9 7.9 47.9 20.7 14.8-2.8 29-8.3 41.6-15.8-4.9 15.2-15.2 28-28.8 36.1 13.2-1.4 26-5.1 37.8-10.2-8.9 13.1-20.1 24.7-32.9 34z" />
+                                </svg>
+                            </a>
+
+                    </ul>
+                </div>
+
+            </footer>
+        </div>
+
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+        integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+        crossorigin="anonymous"></script>
+
+
+    <body>
+
+    </body>
+
+</html>
