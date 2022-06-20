@@ -134,6 +134,22 @@ h2 {
 }
 
 
+@media (max-width: 575.98px) {
+.background-carousel {
+    background-color: rgba(0, 0, 0, 0.692);
+    padding: 1.75rem 2rem;
+    display: inline-block;
+    margin-bottom: 3rem;
+    border-left-width: 0.4rem;
+    border-left-color: #e4373ae7;
+    border-left-style: solid;
+    font-size: 1.5rem;
+}
+
+}
+
+
+
 .btn {
     border-radius: 10px;
     background-color: rgba(61, 71, 80, 0.904);
